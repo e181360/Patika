@@ -1,0 +1,55 @@
+body {
+    background-color: beige;
+    font-family: cursive;
+}
+img {
+    width: 240px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: fuchsia;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: slateblue;
+}
+h3 {
+    font-size: 20px;
+    color: darkmagenta;
+    text-align: left;
+    margin: 20px 10px;
+}
+h4 {
+    text-align: center;
+    color:green;
+    font-size: 18px;
+}
+.navbar {
+font-size: inherit;
+}
+.main {
+    text-align: center;
+}
+.main ul {
+    list-style-position: inside;
+} 
+.products {
+    text-align: center;
+}
+.products ol {
+    list-style-position: inside;
+} 
+
+.about {
+    text-align: center;
+}
+.navbar  ul {
+    list-style-type: none;
+    text-align: center;
+}
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+}
