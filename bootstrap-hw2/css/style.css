@@ -4,6 +4,7 @@
 body {
   margin:0;
   padding: 0;
+  background-color: #FAFAFA;
 }
 
 .navbar { 
@@ -12,18 +13,14 @@ body {
   z-index: 1;
   height: 54px;
   background-color: white;
+  overflow: hidden;
 }
 .navbar .logo {
   margin-left: 192px;
 }
-nav+div {
+main {
   padding: 20px;
 }
-
-.middlearea {
-  max-height: 200px !important;
-}
-
 
 
 ::placeholder {
@@ -64,6 +61,11 @@ input.empty {
   color: black;
 }
 
+.rightpanel {
+  background-color: #FAFAFA;
+  border: none;
+}
+
 .rightpanellinks {
   text-decoration: none;
   color: lightgrey;
@@ -72,4 +74,41 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+.card-header, .card-footer {
+  background-color: white;
+}
+
+#sticky-sidebar {
+  position: sticky;
+  top: 75px;
+}
+
+
+.fa-ellipsis-h {
+  float: right;
+}
+.fa-heart {
+  color: black;
+  position: relative;
+  font-size: 23px;
+}
+.fa-comment {
+  color: black;
+  position: relative;
+  font-size: 23px;
+  margin-left: -11px;
+}
+
+.fa-paper-plane {
+  color: black;
+  position: relative;
+  font-size: 23px;
+  margin-left: -11px;
+}
+.fa-bookmark {
+  color: black;
+  font-size: 23px;
+  position: relative;
+  offset: 7px;
 }
